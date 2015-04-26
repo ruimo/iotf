@@ -1,6 +1,0 @@
-package com.ruimo.samples.scanner
-
-sealed abstract class TopicPattern {
-  case object All extends TopicPattern
-  case class Const(s: String)
-}
