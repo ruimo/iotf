@@ -2,7 +2,7 @@ name := """iotf"""
 
 organization := "com.ruimo"
 
-version := "1.0-SNAPSHOT"
+version := "1.0"
 
 scalaVersion := "2.11.6"
 
@@ -24,10 +24,10 @@ resolvers += "Eclipse paho" at "https://repo.eclipse.org/content/repositories/pa
 resolvers += "ruimo.com" at "http://static.ruimo.com/release"
 
 // Ruimo mqtt
-libraryDependencies += "com.ruimo" %% "mqtt" % "1.0-SNAPSHOT"
+libraryDependencies += "com.ruimo" %% "mqtt" % "1.0"
 
 // Ruimo scoins
-libraryDependencies += "com.ruimo" %% "scoins" % "1.0-SNAPSHOT"
+libraryDependencies += "com.ruimo" %% "scoins" % "1.0"
 
 // Logging
 libraryDependencies ++= Seq(
