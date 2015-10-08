@@ -2,9 +2,9 @@ name := """iotf"""
 
 organization := "com.ruimo"
 
-version := "1.1-SNAPSHOT"
+version := "1.1"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.7"
 
 publishTo := Some(
   Resolver.file(
@@ -24,7 +24,7 @@ resolvers += "Eclipse paho" at "https://repo.eclipse.org/content/repositories/pa
 resolvers += "ruimo.com" at "http://static.ruimo.com/release"
 
 // Ruimo mqtt
-libraryDependencies += "com.ruimo" %% "mqtt" % "1.0"
+libraryDependencies += "com.ruimo" %% "mqtt" % "1.1"
 
 // Ruimo scoins
 libraryDependencies += "com.ruimo" %% "scoins" % "1.0"
