@@ -2,7 +2,7 @@ name := """iotf"""
 
 organization := "com.ruimo"
 
-version := "1.2-SNAPSHOT"
+version := "1.2"
 
 scalaVersion := "2.11.7"
 
