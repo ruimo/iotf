@@ -24,10 +24,10 @@ resolvers += "Eclipse paho" at "https://repo.eclipse.org/content/repositories/pa
 resolvers += "ruimo.com" at "http://static.ruimo.com/release"
 
 // Ruimo mqtt
-libraryDependencies += "com.ruimo" %% "mqtt" % "1.1"
+libraryDependencies += "com.ruimo" %% "mqtt" % "1.2"
 
 // Ruimo scoins
-libraryDependencies += "com.ruimo" %% "scoins" % "1.0"
+libraryDependencies += "com.ruimo" %% "scoins" % "1.2"
 
 // Logging
 libraryDependencies ++= Seq(
